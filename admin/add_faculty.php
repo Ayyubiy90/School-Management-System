@@ -213,3 +213,56 @@ VALUES('$_POST[name]','$_POST[designation]', '$_POST[qualification]','$_POST[exp
 
                                                                         </tr>
                                                                     </table>
+                                                                    <table width="57%" align="left" border="0" cellspacing="4" cellpadding="4">
+
+                                                                        <tr>
+                                                                            <td width="77%">&nbsp;</td>
+                                                                            <td width="23%"></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td></td>
+                                                                            <td align="center"><input type="submit" name="add" value="Submit" onClick="return check()" /></td>
+                                                                        </tr>
+
+                                                                    </table>
+
+                                                                </form>
+
+
+
+
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" valign="top" height="2"></td>
+                    </tr>
+                    <tr bgcolor="#999999">
+                        <td colspan="2" height="20" valign="top" background="images/bottom.gif">
+                            <table width="95%" border="0" cellspacing="2" cellpadding="1">
+                                <tr>
+                                    <td height="26" align="center" valign="bottom">
+                                        <div align="center">&copy;sahjanand vidhyalay,rajkot </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div align="center"></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
