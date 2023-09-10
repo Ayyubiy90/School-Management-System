@@ -54,3 +54,39 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
                                 }
                                 -->
                             </style>
+                            <table width="160" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="26" background="but.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php">
+                                            <font color="#363636" style="font-size:12px">Home</font>
+                                        </a></td>
+                                </tr>
+
+                                <tr>
+                                    <td height="26" background="but.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="standard.php">
+                                            <font color="#363636">STANDARD</font>
+                                        </a></td>
+                                </tr>
+
+                                <tr>
+                                    <td height="26" background="but.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="staff.php">
+                                            <font color="#363636">STAFF</font>
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <td height="26" background="but.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="admission.php">
+                                            <font color="#363636" style="font-size:12px">Admission</font>
+                                        </a></td>
+                                </tr>
+
+
+
+                                <tr>
+                                    <td height="26" background="but.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="adminLogOut.php">
+                                            <font color="#363636" style="font-size:12px">Logout</font>
+                                        </a></td>
+                                </tr>
+                                <tr>
+
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
