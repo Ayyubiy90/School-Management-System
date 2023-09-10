@@ -109,3 +109,45 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
                                                         <tr>
                                                             <td height="135">
                                                                 <p><a href="staff.php"><img src="images/back.png" border="0" align="absmiddle"></a><br>
+                                                                    <?php
+                                                                    if (!$_POST[name]) {
+                                                                        echo '<font face="verdana" color="#336666">';
+
+                                                                        echo '</font>';
+                                                                    } else if (!$_POST[designation]) {
+                                                                        echo '<font face="verdana" color="#336666">';
+                                                                        echo "Enter correct data.";
+                                                                        echo '</font>';
+                                                                    } else if (!$_POST[qualification]) {
+                                                                        echo '<font face="verdana" color="#336666">';
+                                                                        echo "Enter correct data.";
+                                                                        echo '</font>';
+                                                                    } else if (!$_POST[experience]) {
+                                                                        echo '<font face="verdana" color="#336666">';
+                                                                        echo "Enter correct data.";
+                                                                        echo '</font>';
+                                                                    } else if (!$_POST[contact]) {
+                                                                        echo '<font face="verdana" color="#336666">';
+                                                                        echo "Enter correct data.";
+                                                                        echo '</font>';
+                                                                    } else if (!$_POST[email]) {
+                                                                        echo '<font face="verdana" color="#336666">';
+                                                                        echo "Enter correct data.";
+                                                                        echo '</font>';
+                                                                    } else 	
+		
+if ($_REQUEST['add']) {
+                                                                        $db = mysql_connect("localhost", "root", "");
+                                                                        mysql_select_db("student", $db);
+
+                                                                        $sql = "INSERT INTO staff (name,designation,qualification,experience,contact,email)
+VALUES('$_POST[name]','$_POST[designation]', '$_POST[qualification]','$_POST[experience]','$_POST[contact]','$_POST[email]')";
+
+
+
+                                                                        $result = mysql_query($sql);
+                                                                        echo '<font face="verdana" color="#336666">';
+                                                                        echo "One record added successfully....";
+                                                                        echo '</font>';
+                                                                    }
+                                                                    ?>
