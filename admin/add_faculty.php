@@ -40,3 +40,17 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
                 </table>
             </td>
         </tr>
+        <tr>
+            <td valign="top" colspan="2">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+                    <tr>
+                        <td width="13%" background="images/side.gif" valign="top">
+                            <style type="text/css">
+                                <!--
+                                .style1 {
+                                    font-size: 13px;
+                                    font-weight: bold;
+                                    color: #99FF00;
+                                }
+                                -->
+                            </style>
