@@ -1,5 +1,7 @@
 # 📘 ManageMySchool: The Ultimate Solution for School Administration 🎓
 
+<hr>
+
 ## 🎉 Introduction
 
 Introducing ManageMySchool, the one-stop platform that revolutionizes educational administration. Created meticulously using PHP, this system automates the cumbersome and makes the complex simple. Why just manage when you can manage smartly? 🌟
