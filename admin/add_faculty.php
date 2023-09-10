@@ -151,3 +151,65 @@ VALUES('$_POST[name]','$_POST[designation]', '$_POST[qualification]','$_POST[exp
                                                                         echo '</font>';
                                                                     }
                                                                     ?>
+                                                                    <script src="javascript/addfaculty.js" language="javascript"></script>
+                                                                <form name="addfacultyform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
+                                                                    <table width="90%" align="center" border="0" cellspacing="4" cellpadding="4">
+                                                                        <tr class="lgbg">
+                                                                            <td width="301" align="right" class="fheader">
+                                                                                <font style="font-size:12px"><b>Teacher name</b></font>
+                                                                            </td>
+                                                                            <td width="6" class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td width="396"><input type="text" name="name" size="30" /></td>
+                                                                        </tr>
+                                                                        <tr class="lgbg">
+                                                                            <td width="301" align="right" class="fheader">
+                                                                                <font style="font-size:12px"><b>Designations</b></font>
+                                                                            </td>
+                                                                            <td class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td><input type="text" name="designation" size="20" /></td>
+                                                                        </tr>
+                                                                        <tr class="lgbg">
+                                                                            <td width="301" align="right">
+                                                                                <font style="font-size:12px"><b>Qualification</b></font>
+                                                                            </td>
+                                                                            <td width="6" class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td width="396"><input type="text" name="qualification" size="20" /></td>
+                                                                        </tr>
+                                                                        <tr class="lgbg">
+                                                                            <td width="301" align="right">
+                                                                                <font style="font-size:12px"><b>Exp.(years)</b></font>
+                                                                            </td>
+                                                                            <td width="6" class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td width="396"><input type="text" name="experience" size="20" /></td>
+                                                                        </tr>
+                                                                        <tr class="lgbg">
+                                                                            <td width="301" align="right">
+                                                                                <font style="font-size:12px"><b>Contact no.</b></font>
+                                                                            </td>
+                                                                            <td width="6" class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td width="396"><input type="text" name="contact" size="20" /></td>
+                                                                        </tr>
+                                                                        <tr class="lgbg">
+                                                                            <td width="301" align="right">
+                                                                                <font style="font-size:12px"><b>Email</b></font>
+                                                                            </td>
+                                                                            <td width="6" class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td width="396"><input type="text" name="email" size="20" /></td>
+                                                                        </tr>
+                                                                        <tr class="lgbg">
+
+                                                                        </tr>
+                                                                    </table>
