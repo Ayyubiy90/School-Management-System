@@ -81,3 +81,111 @@
                                     <td>&nbsp;</td>
                                 </tr>
                             </table>
+                        </td>
+                        <td width="83%" valign="top">
+                            <table width="99%" border="0" cellspacing="1" cellpadding="1" align="center">
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
+                                            <tr>
+                                                <td height="225" bgcolor="#F4F4F4">
+                                                    <table cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td valign="middle" colspan="4" class=title>Add Admission </td>
+                                                        </tr>
+                                                    </table>
+                                                    <table width="100%" cellpadding="0" cellspacing="21" bgcolor="#F4F4F4">
+                                                        <tr>
+                                                            <td height="130">
+                                                                <a href="admission.php"><img src="images/back.png" border="0" align="absmiddle"></a>
+                                                                <?php
+                                                                if ($_REQUEST['submit']) {
+
+
+                                                                    echo '<pre>';
+                                                                    $db = mysql_connect("localhost", "root", "");
+                                                                    mysql_select_db("student", $db);
+                                                                    $sql = "INSERT INTO admission 
+			VALUES('$_POST[id]','$_POST[name]','$_POST[standard]')";
+                                                                    $result = mysql_query($sql);
+                                                                    echo '<font face="verdana" color="#336666">';
+                                                                    echo '<u>';
+                                                                    echo $db;
+                                                                    echo '</u>';
+                                                                    echo "  added successfully....";
+                                                                    echo '</font>';
+                                                                } else {
+                                                                    echo '<font face="verdana" color="#336666">';
+                                                                    echo "No file chosen..\n";
+                                                                    echo '</font>';
+                                                                }
+
+                                                                print "</pre>";
+
+                                                                ?>
+                                                                <script language="javascript" src="javascript/add_admission.js"></script>
+                                                                <form name="admissionform" method="post" enctype="multipart/form-data" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                                                                    <table width="90%" align="center" border="0" cellspacing="4" cellpadding="4">
+                                                                        <tr class="lgbg">
+                                                                            <td width="286" align="right" class="fheader">
+                                                                                <font style="font-size:12px"><b>name</b></font>
+                                                                            </td>
+                                                                            <td width="6" class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td width="390"><input type="text" name="name" size="50" /></td>
+                                                                        </tr>
+                                                                        <tr class="lgbg">
+                                                                            <td width="286" align="right" class="fheader">
+                                                                                <font style="font-size:12px"><b>standard</b></font>
+                                                                            </td>
+                                                                            <td width="6" class="formfontcaps">
+                                                                                <font face="Arial" size="+1">:</font>
+                                                                            </td>
+                                                                            <td width="390"><select name="standard" class="listmenu">
+                                                                                    <option>select</option>
+                                                                                    <option>FIRST</option>
+                                                                                    <option>SECOND</option>
+                                                                                    <option>THIRD</option>
+                                                                                    <option>FOURTH</option>
+                                                                                    <option>FIFTH</option>
+                                                                                    <option>SIXTH</option>
+                                                                                    <option>SEVENTH</option>
+                                                                                    <option>EIGHT</option>
+                                                                                    <option>NINTH</option>
+                                                                                    <option>TENTH</option>
+                                                                                    <option>ELEVAN</option>
+                                                                                    <option>TWELTH</option>
+                                                                                </select></td>
+                                                                        </tr>
+                                                                    </table>
+
+                                                                    <table width="56%" align="left" border="0" cellspacing="4" cellpadding="4">
+
+                                                                        <tr>
+                                                                            <td width="79%">&nbsp;</td>
+                                                                            <td width="21%"></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td></td>
+                                                                            <td align="center"><input type="submit" name="submit" value="Submit" onClick="return check()" /></td>
+                                                                        </tr>
+                                                                    </table>
+
+                                                                </form>
+
+
+
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
