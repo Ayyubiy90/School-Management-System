@@ -189,3 +189,25 @@
                             </table>
                         </td>
                     </tr>
+                    <tr>
+                        <td colspan="2" valign="top" height="2"></td>
+                    </tr>
+                    <tr bgcolor="#999999">
+                        <td colspan="2" height="20" valign="top" background="images/bottom.gif">
+                            <table width="95%" border="0" cellspacing="2" cellpadding="1">
+                                <tr>
+                                    <td height="26" align="center" valign="bottom">
+                                        <div align="center">&copy;Sahjanand Vidhyalay,rajkot</div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div align="center"></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
