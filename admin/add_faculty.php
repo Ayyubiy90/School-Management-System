@@ -90,3 +90,22 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
                                     <td>&nbsp;</td>
                                 </tr>
                             </table>
+                        </td>
+                        <td width="83%" valign="top">
+                            <table width="99%" border="0" cellspacing="1" cellpadding="1" align="center">
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
+                                            <tr>
+                                                <td height="225" bgcolor="#F4F4F4">
+                                                    <table cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td valign="middle" colspan="4" class=title>Add Teacher </td>
+                                                        </tr>
+                                                    </table>
+                                                    <table width="100%" cellpadding="0" cellspacing="5" bgcolor="#F4F4F4">
+                                                        <tr>
+
+                                                        <tr>
+                                                            <td height="135">
+                                                                <p><a href="staff.php"><img src="images/back.png" border="0" align="absmiddle"></a><br>
