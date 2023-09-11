@@ -166,3 +166,13 @@
                                                                             <font size="-1">Gujarat</font>
                                                                         </TD>
                                                                     </TR>
+                                                                    <TR class="lgbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">
+                                                                            <div align="center"><strong>
+                                                                                    <font size="+1">Phone(O.)</font>
+                                                                                </strong><img src="images/icon_phone.gif" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD HEIGHT="24" CLASS="normal">
+                                                                            <font size="-1">+91 281 2554232 </font>
+                                                                        </TD>
+                                                                    </TR>
