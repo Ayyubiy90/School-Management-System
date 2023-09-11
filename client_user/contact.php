@@ -207,3 +207,13 @@
                                                                             <font size="-1">9 a.m to 6 p.m (Monday - Saturday)</font>
                                                                         </TD>
                                                                     </TR>
+                                                                    <TR class="lgbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">
+                                                                            <div align="center"><strong>
+                                                                                    <font size="+1">E-mail &nbsp;</font>
+                                                                                </strong><img src="images/icon_email.gif" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD CLASS="normal" HEIGHT="24"> <A HREF="mailto:principal_scem@gmail.com">
+                                                                                <font size="-1">principal_scem@gmail.com</font>
+                                                                            </A></TD>
+                                                                    </TR>
