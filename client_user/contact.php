@@ -176,3 +176,34 @@
                                                                             <font size="-1">+91 281 2554232 </font>
                                                                         </TD>
                                                                     </TR>
+                                                                    <TR class="gbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">
+                                                                            <div align="center"><b>
+                                                                                    <font size="+1">Country</font>
+                                                                                </b></div>
+                                                                            <div align="center"><img src="images/country.jpg" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD CLASS="normal" HEIGHT="23">India</TD>
+                                                                    </TR>
+                                                                    <TR class="lgbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">
+                                                                            <div align="center"><strong>
+                                                                                    <font size="+1">Fax</font>
+                                                                                </strong></div>
+                                                                            <div align="center"><img src="images/icon_fax.gif" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD HEIGHT="24" CLASS="normal">
+                                                                            <font size="-1">+91 281 2554232 </font>
+                                                                        </TD>
+                                                                    </TR>
+                                                                    <TR class="gbg">
+                                                                        <TD ALIGN="right" CLASS="fheader">
+                                                                            <div align="center"><strong>
+                                                                                    <font size="+1">Time</font>
+                                                                                </strong></div>
+                                                                            <div align="center"><img src="images/time.png" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD HEIGHT="24" CLASS="normal">
+                                                                            <font size="-1">9 a.m to 6 p.m (Monday - Saturday)</font>
+                                                                        </TD>
+                                                                    </TR>
