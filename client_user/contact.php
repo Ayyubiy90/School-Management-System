@@ -228,3 +228,14 @@
                                                                                 <font size="-1">www.scem.com</font>
                                                                             </A></TD>
                                                                     </TR>
+                                                                    <TR class="lgbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">
+                                                                            <div align="center"><B>
+                                                                                    <font size="+1">Reach us</font>
+                                                                                </B></div>
+                                                                            <div align="center"><img src="images/icon_satelite.gif" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD CLASS="normal" HEIGHT="24"> <A HREF="http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=103691345185033842238.0004508e27e9123c7bb1b&ll=31.255359,75.70389&spn=0.006475,0.009398&t=h&z=17" target="_blank">
+                                                                                <font size="-1">satellite view on google map</font>
+                                                                            </A></TD>
+                                                                    </TR>
