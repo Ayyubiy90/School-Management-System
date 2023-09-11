@@ -103,3 +103,66 @@
 
                 </table>
             </td>
+            <td width="83%" valign="top" bgcolor="#E6FBF4">
+                <table width="99%" border="0" cellspacing="1" cellpadding="1" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
+                                <tr>
+                                    <td bgcolor="#E2F0FE">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td valign="middle" colspan="4" background="images/header.gif" class=title><img src="images/decoration_head.png" align="absmiddle">&nbsp;&nbsp;Contac us&nbsp;&nbsp;<img src="images/decoration_head.png" align="absmiddle"></td>
+                                            </tr>
+                                        </table>
+                                        <br>
+                                        <table width="100%" cellpadding="0" cellspacing="5" bgcolor="#E2F0FE">
+                                            <tr>
+
+                                            <tr valign="middle">
+                                                <td height="135">
+                                                    <TABLE BORDER="0" ALIGN="center" CELLPADDING="0" CELLSPACING="0" bgcolor="#E2F0FE" class="umesh" ID="table9">
+                                                        <TR>
+
+                                                        </TR>
+
+                                                        <TR>
+                                                            <TD CLASS="normal" ALIGN="center" VALIGN="top">
+
+                                                                <TABLE ID="table10" BORDER="0" CELLPADDING="1" CELLSPACING="1" WIDTH="502">
+                                                                    <!-- MSTableType="layout" -->
+                                                                    <TR class="gbg">
+                                                                        <TD width="134" ALIGN="right" CLASS="fheader">
+                                                                            <div align="center"><strong>
+                                                                                    <font size="+1">Address</font>
+                                                                                </strong></div>
+                                                                            <div align="center"><img src="images/address.png" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD width="361" HEIGHT="23" CLASS="normal">
+                                                                            <font size="-1">The Principal</font>,
+                                                                        </TD>
+                                                                    </TR>
+                                                                    <TR class="lgbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">&nbsp;</TD>
+                                                                        <TD CLASS="normal" HEIGHT="23">
+                                                                            <font size="-1">Sahjanand Vidhyalay,</font>
+                                                                        </TD>
+                                                                    </TR>
+                                                                    <TR class="gbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">&nbsp;</TD>
+                                                                        <TD CLASS="normal" HEIGHT="23">
+                                                                            <font size="-1">Shivam Society,Raiya Road,</font>
+                                                                        </TD>
+                                                                    </TR>
+                                                                    <TR class="lgbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">&nbsp;</TD>
+                                                                        <TD CLASS="normal" HEIGHT="23">
+                                                                            <font size="-1">Rajkot-360 005. </font>
+                                                                        </TD>
+                                                                    </TR>
+                                                                    <TR class="gbg">
+                                                                        <TD CLASS="fheader" ALIGN="right"><strong>&nbsp;&nbsp;&nbsp;</strong></TD>
+                                                                        <TD CLASS="normal" HEIGHT="23">
+                                                                            <font size="-1">Gujarat</font>
+                                                                        </TD>
+                                                                    </TR>
