@@ -217,3 +217,14 @@
                                                                                 <font size="-1">principal_scem@gmail.com</font>
                                                                             </A></TD>
                                                                     </TR>
+                                                                    <TR class="gbg">
+                                                                        <TD CLASS="fheader" ALIGN="right">
+                                                                            <div align="center"><B>
+                                                                                    <font size="+1">Web&nbsp;</font>
+                                                                                </B></div>
+                                                                            <div align="center"><img src="images/browser.png" align="middle"></div>
+                                                                        </TD>
+                                                                        <TD CLASS="normal" HEIGHT="24"> <A HREF="http://www.scem.com" target="_blank">
+                                                                                <font size="-1">www.scem.com</font>
+                                                                            </A></TD>
+                                                                    </TR>
