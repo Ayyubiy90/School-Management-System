@@ -27,3 +27,17 @@
                     <tr>
                         <td height="2" colspan="2"></td>
                     </tr>
+                    <tr>
+                        <td height="2" colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td height="21" colspan="2" align="right" background="images/toplinkbg.gif">
+                            <p>&nbsp;&nbsp;&nbsp; <a href="index.php"><img src="images/link_home.gif" align="middle" border="0"><img src="images/separator.gif" align="middle" border="0"></a><a href="about.php"><img src="images/link_about.gif" align="middle" border="0"><img src="images/separator.gif" align="middle" border="0"></a><a href="contact.php"><img src="images/link_contact.gif" align="middle" border="0"></a> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="2" colspan="2"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
