@@ -103,44 +103,51 @@
                 </table>
             </td>
             <td width="83%" valign="top" bgcolor="#E6FBF4">
-        <table width="99%" border="0" cellspacing="1" cellpadding="1" align="center">
-          <tr>
-            <td>
-              <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
-                <tr>
-                  <td height="436" bgcolor="#E2F0FE">
-                    <table cellpadding="0" cellspacing="0" width="100%">
-                      <tr>
-                        <td valign="middle" colspan="4" background="images/header.gif" class=title><img src="images/decoration_head.png" align="absmiddle">&nbsp;&nbsp;Feedback&nbsp;&nbsp;<img src="images/decoration_head.png" align="absmiddle"></td>
-                      </tr>
-                    </table>
-                    <table width="100%" cellpadding="0" cellspacing="5" bgcolor="#E2F0FE">
-                      <tr>
+                <table width="99%" border="0" cellspacing="1" cellpadding="1" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
+                                <tr>
+                                    <td height="436" bgcolor="#E2F0FE">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td valign="middle" colspan="4" background="images/header.gif" class=title><img src="images/decoration_head.png" align="absmiddle">&nbsp;&nbsp;Feedback&nbsp;&nbsp;<img src="images/decoration_head.png" align="absmiddle"></td>
+                                            </tr>
+                                        </table>
+                                        <table width="100%" cellpadding="0" cellspacing="5" bgcolor="#E2F0FE">
+                                            <tr>
 
-                      <tr>
-                        <td height="135">
-                          <p align="center">
-                            <font color="#006666" face="Verdana" style="font-size:12px"> <?php include 'response.php'; ?></font>
-                          </p>
+                                            <tr>
+                                                <td height="135">
+                                                    <p align="center">
+                                                        <font color="#006666" face="Verdana" style="font-size:12px"> <?php include 'response.php'; ?></font>
+                                                    </p>
 
-                          <script src="javascript/feedback.js" language="javascript"></script>
-                          <FORM name="feedbackfrm" METHOD="post" ACTION="<?php echo $_SERVER['PHP_SELF']; ?>">
-                            <TABLE ID="table10" align="center" BORDER="0" CELLPADDING="1" CELLSPACING="1" WIDTH="300" class="jeetesh" bgcolor="#e2fofe">
-                              <!-- MSTableType="layout" -->
+                                                    <script src="javascript/feedback.js" language="javascript"></script>
+                                                    <FORM name="feedbackfrm" METHOD="post" ACTION="<?php echo $_SERVER['PHP_SELF']; ?>">
+                                                        <TABLE ID="table10" align="center" BORDER="0" CELLPADDING="1" CELLSPACING="1" WIDTH="300" class="jeetesh" bgcolor="#e2fofe">
+                                                            <!-- MSTableType="layout" -->
 
 
-                              <TR class="lgbg">
-                                <TD CLASS="fheader" ALIGN="right">First Name:</TD>
-                                <TD CLASS="fheader" HEIGHT="29">
-                                  <INPUT NAME="fname" SIZE="22" CLASS="finput">
-                                </TD>
-                              </TR>
-                              <TR class="gbg">
-                                <TD CLASS="fheader" ALIGN="right">Last Name:</TD>
-                                <TD CLASS="fheader" HEIGHT="29">
-                                  <INPUT NAME="lname" SIZE="22" CLASS="finput">
-                                </TD>
-                              </TR>
-                              <TR class="lgbg">
-                                <TD CLASS="fheader" ALIGN="right">Gender:</TD>
-                                <TD CLASS="fheader" HEIGHT="29">
+                                                            <TR class="lgbg">
+                                                                <TD CLASS="fheader" ALIGN="right">First Name:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="fname" SIZE="22" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="gbg">
+                                                                <TD CLASS="fheader" ALIGN="right">Last Name:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="lname" SIZE="22" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="lgbg">
+                                                                <TD CLASS="fheader" ALIGN="right">Gender:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+
+                                                                    <label>
+                                                                        <input type="radio" name="gender" value="male" checked="checked">
+                                                                        Male</label>
+                                                                    <label>
+                                                                        <input type="radio" name="gender" value="female">
+                                                                        Female</label>
