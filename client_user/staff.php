@@ -113,3 +113,19 @@
                                                 <td valign="middle" colspan="4" background="images/header.gif" class=title><img src="images/decoration_head.png" align="absmiddle">&nbsp;&nbsp;STAFF&nbsp;&nbsp;<img src="images/decoration_head.png" align="absmiddle"></td>
                                             </tr>
                                         </table>
+                                        <br>
+                                        <table width="802" cellpadding="0" cellspacing="5" align="center">
+                                            <tr>
+                                                <td background="images/facultybg.gif" width="792" height="29" align="center" class="umesh"><a href="fac_gen.php">STAFF ENTRY </a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="maintaxt">
+                                                    <p align="justify" class="paragraph">Sahjanand Vidhyalay has experienced and genius teacher. They have master as well as doctorate degree in their respective Subject. Total staff of our School is 19. Many Teachers have presented the research papers at Gujarat board level. Also some of them have written books which are so popular today.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
