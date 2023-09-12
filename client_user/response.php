@@ -17,4 +17,19 @@ if ($_REQUEST['submit']) {
     // To send HTML mail, you can set the Content-type header.
     $headers  = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html; charset=1so-8859-1\r\n";
+
+    // Additional headers
+    $headers .= "From: $from\r\n";
+    // $headers .= "Cc: ".$cc. "\r\n";
+    // $headers .= "Bcc: \r\n";
+
+    $msg = "";
+    $msg .= "Firstame   : $fname<br />";
+    $msg .= "Lastame   : $lname<br />";
+    $msg .= "Gender   : $gender<br />";
+    $msg .= "Age   : $age<br />";
+    $msg .= "City   : $city<br />";
+    $msg .= "State   : $state<br />";
+    $msg .= "Country   : $country<br />";
+    $msg .= "Phone   : $phone<br />";
 }
