@@ -104,3 +104,8 @@
                                             <font size="+1">Contact us</font>
                                         </a></td>
                                 </tr>
+                                <tr>
+                                    <td height="26"><a href="feedback.php">
+                                            <font size="+1">Feedback</font>
+                                        </a></td>
+                                </tr>
