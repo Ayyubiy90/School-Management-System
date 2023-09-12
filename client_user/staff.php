@@ -101,3 +101,15 @@
                     </tr>
                 </table>
             </td>
+            <td width="83%" valign="top" bgcolor="#E6FBF4">
+                <table width="99%" border="0" cellspacing="1" cellpadding="1" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
+                                <tr>
+                                    <td bgcolor="#E2F0FE">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td valign="middle" colspan="4" background="images/header.gif" class=title><img src="images/decoration_head.png" align="absmiddle">&nbsp;&nbsp;STAFF&nbsp;&nbsp;<img src="images/decoration_head.png" align="absmiddle"></td>
+                                            </tr>
+                                        </table>
