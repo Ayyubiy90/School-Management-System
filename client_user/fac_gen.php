@@ -102,3 +102,97 @@
                     </tr>
                 </table>
             </td>
+            <td width="83%" valign="top" bgcolor="#E6FBF4">
+                <table width="99%" border="0" cellspacing="1" cellpadding="1" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
+                                <tr>
+                                    <td bgcolor="#E2F0FE">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td valign="middle" colspan="4" background="images/header.gif" class=title><img src="images/decoration_head.png" align="absmiddle">&nbsp;&nbsp;General Staff &nbsp;&nbsp;<img src="images/decoration_head.png" align="absmiddle"></td>
+                                            </tr>
+                                        </table>
+                                        <br>
+                                        <table align="center" width="802" cellpadding="0" cellspacing="5" bgcolor="#E2F0FE">
+                                            <tr>
+                                                <td background="images/facultybg.gif" width="793" height="29" align="center" class="umesh"><a href="fac_gen.php">General</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td height="135">
+                                                    <table width="93%" align="center" cellpadding="3" cellspacing="2">
+                                                        <tr>
+                                                            <td width="27%" class="path">Name of Teacher </td>
+                                                            <td width="14%" class="path">Designation </td>
+                                                            <td width="19%" class="path">Qualification </td>
+                                                            <td width="11%" class="path">Exp.<br>
+                                                                (Years) </td>
+                                                            <td width="15%" class="path">Contact no. </td>
+                                                            <td width="14%" class="path">E-mail</td>
+                                                        </tr><?php
+                                                                mysql_connect("localhost", "root", "");
+                                                                mysql_select_db("student") or die(" could not connect to DB");
+                                                                $sql = "SELECT * from staff";
+                                                                $result = mysql_query($sql);
+                                                                while ($row = mysql_fetch_array($result)) {
+                                                                ?>
+
+
+
+                                                            <th>
+                                                                <tr align="center" class="gbg">
+                                                                    <td>
+                                                                        <div align="center"> <?php printf($row['name']); ?></div>
+                                                                    </td>
+                                                                    <td><?php printf($row['designation']); ?></td>
+                                                                    <td><?php printf($row['qualification']); ?> </td>
+                                                                    <td><?php printf($row['experience']); ?></td>
+                                                                    <td>+91<?php printf($row['contact']); ?></td>
+                                                                    <td><a href="mailto:<?php printf($row['email']); ?>"><?php printf($row['email']); ?></a></td>
+
+
+                                                                </tr>
+                                                            </th>
+
+                                                        <?php
+                                                                }
+                                                        ?>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" valign="top" height="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2" height="20" valign="top">
+                <table width="100%" border="0" cellspacing="1" cellpadding="1" background="images/bottom.gif">
+                    <tr>
+                        <td height="26" align="center" valign="bottom">
+                            <div align="center">&copy; SAHJANAND VIDHAYALAY,RAJKOT </div>
+                        </td>
+                    </tr>
+                </table>
+                <div align="center"></div>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
