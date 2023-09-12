@@ -55,3 +55,30 @@
                                 }
                                 -->
                             </style>
+                            <table width="160" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                <tr>
+                                    <td height="26"><a href="index.php">
+                                            <font size="+1">Home</font>
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <td height="26"><a href="about.php">
+                                            <font size="+1">About us</font>
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <td height="26"><a href="standard.php">
+                                            <font size="+1">Standard</font>
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <td height="26"><a href="STAFF.php">
+                                            <font size="+1">Staff</font>
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <td height="26"><a href="admission.php">
+                                            <font size="+1">Admission</font>
+                                        </a></td>
+                                </tr>
