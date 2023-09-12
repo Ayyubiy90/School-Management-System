@@ -94,3 +94,13 @@
                                             <font size="+1">Admission</font>
                                         </a></td>
                                 </tr>
+                                <tr>
+                                    <td height="26"><a href="activity.php">
+                                            <font size="+1">StudentActivity</font>
+                                        </a></td>
+                                </tr>
+                                <tr>
+                                    <td height="26"><a href="contact.php">
+                                            <font size="+1">Contact us</font>
+                                        </a></td>
+                                </tr>
