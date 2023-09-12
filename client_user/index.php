@@ -132,3 +132,55 @@
                                                 <td width="93%" height="135" bclass="maintaxt">
                                                     <p align="justify" class="paragraph"><b>Sahjanand Vidhyalay</b>&nbsp;&nbsp;is a premier school in Rajkot set with the objectives of imparting higher education in various Standard of School. The school is affiliated to Gujarat Board and school is established in 1990 . It is situated adjacent to Gujrat Board. The campus is having building for various class, offices, hostels, library with 20,000 sq.m. plinth area. The School made a modest start with 75 students for programs in 1990.</p>
                                                 </td>
+                                            <tr>
+                                                <td width="5%">&nbsp;</td>
+                                                <td height="135" class="maintaxt">
+                                                    <p align="justify" class="paragraph"> &#8226; For the year 2010 we have to achieve our goal in any manner to become the most powerful Student. we will try our best effort to overcome the limitation of our School and to manage our mistakes.
+                                                        To plan, develop, execute and monitor technical education programs, as per National and State level education policy and in tune with needs of society.<br>
+
+
+
+
+
+                                                    </p>
+                                                </td>
+
+                                                <td width="1%">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" valign="top" height="1"></td>
+        </tr>
+        <tr>
+            <td colspan="2" height="20" valign="top">
+                <table width="100%" border="0" cellspacing="1" cellpadding="1" background="images/bottom.gif">
+                    <tr>
+                        <td width="67%" height="26" align="right" valign="middle">&copy; SAHJANAND VIDHAYALAY RAJKOT.</td>
+                        <td width="33%" align="right">
+                            <font face="verdana" style="font-size:10px" color="#006666">Website design and developed by:<a href="mailto:kamlesh.chetankumar@gmail.com">KAMLESH AND CHETANKUMAR</a></font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                </table>
+                <div align="center"></div>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
