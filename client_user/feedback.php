@@ -151,3 +151,18 @@
                                                                     <label>
                                                                         <input type="radio" name="gender" value="female">
                                                                         Female</label>
+
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="gbg">
+                                                                <TD CLASS="fheader" ALIGN="right">Age:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="age" SIZE="15" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="lgbg">
+                                                                <TD CLASS="fheader" ALIGN="right">City:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="city" SIZE="15" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
