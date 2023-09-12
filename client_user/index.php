@@ -114,4 +114,21 @@
                 </table>
                 <p>&nbsp;</p>
             </td>
-            
+            <td width="83%" valign="top" bgcolor="#E6FBF3">
+                <table width="98%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center" class="border">
+                                <tr>
+                                    <td bgcolor="#E2F0FE">
+
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+
+                                            <tr>
+                                                <td align="center" height="20" colspan="3"><span class="style2">INSTITUTE</span></td>
+
+                                            <tr>
+                                                <td width="5%">&nbsp;</td>
+                                                <td width="93%" height="135" bclass="maintaxt">
+                                                    <p align="justify" class="paragraph"><b>Sahjanand Vidhyalay</b>&nbsp;&nbsp;is a premier school in Rajkot set with the objectives of imparting higher education in various Standard of School. The school is affiliated to Gujarat Board and school is established in 1990 . It is situated adjacent to Gujrat Board. The campus is having building for various class, offices, hostels, library with 20,000 sq.m. plinth area. The School made a modest start with 75 students for programs in 1990.</p>
+                                                </td>
