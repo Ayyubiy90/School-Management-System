@@ -129,3 +129,31 @@
                             </table>
                         </td>
                     </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" valign="top" height="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2" height="20" valign="top">
+                <table width="100%" border="0" cellspacing="1" cellpadding="1" background="images/bottom.gif">
+                    <tr>
+                        <td height="26" align="center" valign="bottom">
+                            <div align="center">&copy; SAHJANAND VIDHAYALAY,RAJKOT </div>
+                        </td>
+                    </tr>
+                </table>
+                <div align="center"></div>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
