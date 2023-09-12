@@ -166,3 +166,48 @@
                                                                     <INPUT NAME="city" SIZE="15" CLASS="finput">
                                                                 </TD>
                                                             </TR>
+
+                                                            <TR class="gbg">
+                                                                <TD CLASS="fheader" ALIGN="right">State:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="state" SIZE="15" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+
+                                                            <TR class="lgbg">
+                                                                <TD CLASS="fheader" ALIGN="right">Country:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="country" SIZE="15" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="gbg">
+                                                                <TD CLASS="fheader" ALIGN="right">Phone:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="phone" SIZE="25" MAXLENGTH="25" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="lgbg">
+                                                                <TD CLASS="fheader" ALIGN="right">FAX:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="fax" SIZE="25" MAXLENGTH="25" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="gbg">
+                                                                <TD CLASS="fheader" ALIGN="right">E-mail:</TD>
+                                                                <TD CLASS="fheader" HEIGHT="29">
+                                                                    <INPUT NAME="email" SIZE="30" CLASS="finput">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="lgbg">
+                                                                <TD CLASS="fheader" ALIGN="right" WIDTH="76">Comments: &nbsp;</TD>
+                                                                <TD CLASS="fheader" HEIGHT="98" WIDTH="357">
+                                                                    <TEXTAREA ROWS="5" NAME="comments" COLS="25" CLASS="finput" WRAP="VIRTUAL"></TEXTAREA>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR class="gbg">
+                                                                <TD CLASS="fheader" COLSPAN="2" HEIGHT="59" valign="middle">
+                                                                    <p ALIGN="center" class="lgbg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        <input type="image" src="images/submit2.png" border="0" onClick="return check()" name="submit" value="submit">
+                                                                        <input type="image" src="images/reset2.png" border="0" name="reset" value="reset">
+                                                                </TD>
+                                                            </TR>
