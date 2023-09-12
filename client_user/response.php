@@ -32,4 +32,14 @@ if ($_REQUEST['submit']) {
     $msg .= "State   : $state<br />";
     $msg .= "Country   : $country<br />";
     $msg .= "Phone   : $phone<br />";
+    $msg .= "Fax   : $fax<br />";
+    $msg .= "Email   : $email<br />";
+    $msg .= "Comment   : $comment<br />";
+
+    $to = "ayyubiy67@gmail.com";
+    $sub = "Feedback Sent from Website scem.com"; // Set Mail Subject 
+
+    @mail($to, $sub, $msg, $headers);
+
+    echo "Your feedback has been sent. We will get back to you soon.....";
 }
