@@ -114,3 +114,19 @@
                                             </tr>
                                         </table>
                                         <table width="100%" cellpadding="0" cellspacing="5" bgcolor="#E2F0FE">
+
+
+                                            <tr>
+                                                <td height="135">
+                                                    <table width="70%" align="center" cellpadding="3" cellspacing="2" bgcolor="#E2F0FE">
+                                                        <tr>
+                                                            <td colspan="5" align="center" background="images/admissionbg.gif"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="3">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="path">Standard </td>
+                                                            <td class="path">Intake </td>
+                                                            <td class="path">Fees(/year)</td>
+                                                        </tr>
