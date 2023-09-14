@@ -131,22 +131,38 @@
                                                             <td class="path">Fees(/year)</td>
                                                         </tr>
                                                         <?php
-                            mysql_connect("localhost", "root", "");
-                            mysql_select_db("student") or die(" could not connect to DB");
-                            $sql = "SELECT * from standard";
-                            $result = mysql_query($sql);
-                            while ($row = mysql_fetch_array($result)) {
+                                                        mysql_connect("localhost", "root", "");
+                                                        mysql_select_db("student") or die(" could not connect to DB");
+                                                        $sql = "SELECT * from standard";
+                                                        $result = mysql_query($sql);
+                                                        while ($row = mysql_fetch_array($result)) {
 
-                            ?>
+                                                        ?>
 
-                              <th>
-                                <tr align="center" class="gbg">
+                                                            <th>
+                                                                <tr align="center" class="gbg">
 
-                                  <td>
-                                    <div align="center">
-                                      <font face="verdana" style="font-size:11px"><?php printf($row['standard_name']); ?></font>
-                                    </div>
-                                  </td>
-                                  <td>
-                                    <font face="verdana" style="font-size:11px"><?php printf($row['intake']); ?></font>
-                                  </td>
+                                                                    <td>
+                                                                        <div align="center">
+                                                                            <font face="verdana" style="font-size:11px"><?php printf($row['standard_name']); ?></font>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <font face="verdana" style="font-size:11px"><?php printf($row['intake']); ?></font>
+                                                                    </td>
+
+                                                                    <td>
+                                                                        <font face="verdana" style="font-size:11px"><?php printf($row['fees']); ?></font>
+                                                                    </td>
+                                                </td>
+                                            </tr>
+
+                                        <?php
+                                                        }
+                                        ?>
+                                        <th colspan="5">
+                                            <tr align="center">
+                                                <td colspan="5" background="images/admissionbg3.gif">&nbsp;</td>
+                                            </tr>
+                                        </th>
+                                        </table>
